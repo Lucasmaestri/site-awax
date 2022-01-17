@@ -78,6 +78,7 @@ header {
     color: #fff;
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -89,4 +90,19 @@ header {
 }
 .banner .slidearea h1 span {
     color: #B28756;     
+}
+.banner .slidearea h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.banner .slidearea button {
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #B28756;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
