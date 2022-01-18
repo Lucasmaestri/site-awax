@@ -63,9 +63,10 @@ header {
     background-image: url(../images/bg.jpg);
     background-position: center;
     background-size: cover;
+    overflow: hidden;/*limitar o espaco do banner, tirando a barra de rolagem lateral*/
 }
 .banner .sliders {
-    width: 100vw;
+    width: 1000vw;
     height: 100%;
 }
 .banner .slide {
@@ -94,15 +95,37 @@ header {
 .banner .slidearea h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-}
-.banner .slidearea button {
-    cursor: pointer;
+    text-transform: uppercase;
     margin-top: 20px;
+}
+.banner .slidearea a {
+    display: block;
+    text-decoration: none;
+    margin-top: 30px;
     padding: 10px 30px;
     background-color: #B28756;
     border-radius: 20px;
-    border: none;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+}
+.banner .sliders-pointers {
+    width: 100vw;
+    position: absolute;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .pointers {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid #B28756;
+    cursor: pointer;
+}
+.banner .pointers.active {
+    background-color: #B28756;
 }
