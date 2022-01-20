@@ -209,6 +209,7 @@ header {
     text-align: center; /*alinhar no centro da DIV*/
     border-left: 1px solid #333;
     border-right: 1px solid #333;
+    margin-bottom: 40px;
 }
 .section-service--quality img,
 .section-service--design img,
@@ -236,13 +237,60 @@ header {
     font-size: 12px;
     margin-top: 20px;
     margin-bottom: 40px;
-    
 }
 
+/*CONFIGURACAO DA TERCEIRA SECTION*/
 
+.section-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 233, 233);
+    max-width: 700px;
+    height: 60px;
+    margin: auto;
+    border-radius: 30px;
+    border: 1px solid rgb(153, 153, 153);
+}
+.section-project-all,
+.section-project-photos,
+.section-project-branding, 
+.section-project-adverts,
+.section-project-development,
+.section-project-misc {
+    flex: 1;
+    border-right: 1px solid rgb(153, 153, 153);
+    padding: 12px 0px;
+    text-align: center;
+}
+.section-project-misc:last-child {
+    border-right: 0;
+}
+.section-project-all a,
+.section-project-photos a,
+.section-project-branding a, 
+.section-project-adverts a,
+.section-project-development a,
+.section-project-misc a {
+    text-decoration: none;
+    color:#333;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+.section-project-all a:hover,
+.section-project-photos a:hover,
+.section-project-branding a:hover, 
+.section-project-adverts a:hover,
+.section-project-development a:hover,
+.section-project-misc a:hover {
+    padding: 15px;
+    border-bottom: 5px solid #B28756;
+}
 
 .default.dark {
     margin-bottom: 40px;
+    margin-bottom: 50px;
     background-color: #000;
     color: #fff;
 }
