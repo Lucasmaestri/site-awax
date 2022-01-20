@@ -132,7 +132,7 @@ header {
 .banner .pointers.active {
     background-color: #B28756;
 }
-/*Conteudo do site*/
+/*CONFIGURACAO DA PRIMEIRA SECTION*/
 
 .default {
     margin: 50px 0px;
@@ -158,6 +158,99 @@ header {
     margin: auto;
     max-width: 1140px;
     min-height: 100px;
-    background-color: seagreen;
+}
+.default .section-aboutus {
+    display: flex;
+
+}
+.default .section-aboutus--left {
+    flex: 1;
+    padding-right: 30px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+}
+.botao {
+    margin-top: 20px;
+}
+.botao a {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: #B28756;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 20px;
+}
+.default .section-aboutus--right {
+    width: 500px;
+    text-align: center;
+}
+.section-aboutus--right img {
+    width: 480px;
+    box-shadow: 0px 3px 10px rgb(80, 80, 80);
+}
+.default.light {
+    color: #000;
+}
+
+
+/*CONFIGURACAO DA SEGUNDA SECTION*/
+
+.section-services {
+    display: flex;
+}
+.section-service--quality,
+.section-service--design,
+.section-service--regular,
+.section-service--support {
+    flex: 1;
+    text-align: center; /*alinhar no centro da DIV*/
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+.section-service--quality img,
+.section-service--design img,
+.section-service--regular img,
+.section-service--support img {
+    margin-bottom: 20px;
+}
+.section-service--quality h3,
+.section-service--design h3,
+.section-service--regular h3,
+.section-service--support h3 {
+    font-family: 'montserrat',sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+}
+.section-service--quality p,
+.section-service--design p,
+.section-service--regular p,
+.section-service--support p {
+    font-family: 'montserrat',sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     
+}
+
+
+
+.default.dark {
+    margin-bottom: 40px;
+    background-color: #000;
+    color: #fff;
+}
+.default.dark .section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
 }
