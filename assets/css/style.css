@@ -170,10 +170,10 @@ header {
     font-weight: 300;
     line-height: 25px;
 }
-.botao {
+.section-aboutus--left .botao {
     margin-top: 20px;
 }
-.botao a {
+.section-aboutus--left .botao a {
     text-decoration: none;
     padding: 10px 40px;
     background-color: #B28756;
@@ -301,4 +301,85 @@ header {
     padding-top: 50px;
     text-align: center;
     text-transform: uppercase;
+}
+.section-projects-photos {
+    width: 100vw;
+    max-width: 1140px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section-projects-photo {
+    width: 280px;
+}
+.section-projects--photoarea {
+    padding: 10px;
+    width: 260px;
+}
+.section-projects--photoarea img {
+    width: inherit;
+    
+}
+
+.section-projects--photoinfo {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 260px;
+    height: 162px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'montserrat',sans-serif;
+
+}
+
+.section-projects--photoinfo h5 {
+    font-weight: 600;
+    font-size: 18px;
+}
+.section-projects--photoinfo p {
+    font-size: 14px;
+}
+.section-projects--photoarea:hover
+.section-projects--photoinfo {
+    display: flex;
+}
+.section-body .botaoo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+.section-body .botaoo a{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: #B28756;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 20px;
+}
+/*configuracao quarta section*/
+
+.bg-team {
+    background-image: url(/media/foto3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.section-team-area {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.section-team {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+.section-team--equipe {
+    flex: 1;
 }
