@@ -401,7 +401,7 @@ header {
     align-items: center;
 }
 .section-team-area .sliders-pointers {
-    margin: 20px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -454,4 +454,19 @@ header {
 }
 .section-team--social a:hover {
     background-color: #B28756;
+}
+
+/*CONFIGURACAO MAPA*/
+
+.section-map {
+    background-image: url(/media/mapa.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: -50px;
+}
+.section-map--area {
+    background-color: red;
+}
+.section-map--cont {
+
 }
