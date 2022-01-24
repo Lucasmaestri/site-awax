@@ -376,31 +376,82 @@ header {
     background-color: rgba(0, 0, 0, 0.7);
 }
 .section-team {
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+}
+.section-team .sliders {
+    width: 1000vw;
+    height: 100%;
+    
+}
+.section-team .slide {
+    width: 280px;
+    min-height: 300px;
+    display: inline-block;
+    background-color: #fff;
+    margin-right: 20px;
+}
+.section-team .slidearea {
+    color: #000;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-team-area .sliders-pointers {
+    margin: 20px;
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
-.section-team--jane {
-    flex: 1;
+.section-team-area .pointers {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid #B28756;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.section-team-area .pointers.active {
     background-color: #B28756;
-    margin: 10px;
-    margin-bottom: 40px;
 }
-.section-team--mike {
-    flex: 1;
-    background-color: aqua;
-    margin: 10px;
-    margin-bottom: 40px;
+.section-team--avatar {
+    margin: 20px;
+    width: 150px;
+    height: auto;
 }
-.section-team--anna {
-    flex: 1;
-    background-color: brown;
-    margin: 10px;
-    margin-bottom: 40px;
+.section-team--name {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px;
 }
-.icon-redes ul li {
-    list-style: none;
-}
-.img-equipe {
+.section-team--role {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
 
+}
+.section-team--social {
+    display: flex;
+    margin: 20px;
+}
+.section-team--social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: #999;
+    margin-right: 12px;
+    border-radius: 50%;
+    
+}
+.section-team--social a:hover {
+    background-color: #B28756;
 }
