@@ -378,8 +378,29 @@ header {
 .section-team {
     display: flex;
     justify-content: center;
-    background-color: #fff;
+    text-align: center;
 }
-.section-team--equipe {
+.section-team--jane {
     flex: 1;
+    background-color: #B28756;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+.section-team--mike {
+    flex: 1;
+    background-color: aqua;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+.section-team--anna {
+    flex: 1;
+    background-color: brown;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+.icon-redes ul li {
+    list-style: none;
+}
+.img-equipe {
+
 }
