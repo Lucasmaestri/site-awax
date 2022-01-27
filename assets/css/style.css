@@ -467,6 +467,7 @@ header {
 .section-map--area {
     background-color: red;
 }
-.section-map--cont {
-
+.section-map {
+    background-image: url(/media/mapa.jpg);
+    height: 300px;
 }
