@@ -505,12 +505,49 @@ header {
 .section-happy .pointers.active {
     background-color: #B28756;
 }
+
+/*CONFIGURAÇÃO LOGO CLIENTES*/
+
+.logo-client {
+    background-color: rgb(247, 247, 247);
+    max-width: 100vw;
+    height: 200px;
+    color: #fff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+}
+.logo-client-img img{
+    padding: 0px 60px;
+
+}
+
+/*CONFIGURAÇÃO TABELA DE PREÇO*/
+
+.section-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-price-tab-express {
+    flex: 1;
+    height: 300px;
+    background-color: #999;
+    margin-right: 20px;
+}
+.section-price-tab-standart {
+    flex: 1;
+    height: 300px;
+    background-color: #999;
+}
+
 /*CONFIGURACAO MAPA*/
 
 .section-map {
     background-image: url(/media/mapa.jpg);
     display: flex;
-    margin-top: -50px;
+    
 }
 .section-map--area {
     width: 100vw;
