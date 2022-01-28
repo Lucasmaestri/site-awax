@@ -28,6 +28,9 @@ header {
 .logo {
     width: 100px;
 }
+.menu-mobile {
+    display: none;
+}
 .menu {
     flex: 1;
     display: flex;
@@ -460,14 +463,95 @@ header {
 
 .section-map {
     background-image: url(/media/mapa.jpg);
-    background-position: center;
-    background-size: cover;
+    display: flex;
     margin-top: -50px;
 }
 .section-map--area {
-    background-color: red;
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
 }
-.section-map {
-    background-image: url(/media/mapa.jpg);
-    height: 300px;
+.section-map--info {
+    width: 50%;
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px 0;
+}
+.section-map--info-item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.section-map--info-item-img {
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    
+    
+}
+.section-map--info-item-img img {
+    width: 25px;
+    height: auto;
+    padding: 5px;
+}
+
+
+
+
+@media (min-width:500px) and (max-width:800px) {
+    nav {
+        display: flex;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 70vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu ul li a {
+        font-weight: 700;
+        border-bottom: 0;
+        height: 45px;
+        margin-left: 30px;
+
+    }
+    .menu li a:hover,
+    .menu .active a {
+    border-bottom: 0;
+    color: #B28756;
+}
+
+    .menu-mobile {
+        display: flex;
+        margin-right: 10px;
+    }
+}
+
+
+
+
+@media (max-width:500px) {
+    nav {
+        display: none;
+    }
+    .menu-mobile {
+        display: flex;
+        margin-right: 10px;
+    }
+    .banner .slidearea h1 {
+        font-size: 30px;
+    }
+    .banner .slidearea h2 {
+        font-size: 14px;
+    }
 }
