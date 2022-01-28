@@ -459,6 +459,52 @@ header {
     background-color: #B28756;
 }
 
+/*CONFIGURAÇÃO QUINTA SECTION*/
+
+.section-happy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.section-happy h3 {
+    font-weight: 700;
+    font-family: 'montserrat',sans-serif;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.section-happy p {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+    padding: 10px 0 20px 0;
+}
+.section-happy-info {
+    width: 700px;
+    text-align: center;
+    margin: 10px;
+}
+.section-happy-info p {
+    color: #999;
+}
+.section-happy .sliders-pointers {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-happy .pointers {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid #B28756;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.section-happy .pointers.active {
+    background-color: #B28756;
+}
 /*CONFIGURACAO MAPA*/
 
 .section-map {
