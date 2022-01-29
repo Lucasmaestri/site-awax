@@ -570,6 +570,24 @@ header {
     font-size: 12px;
     margin-top: 10px;
 }
+.section-price-info a {
+    display: block;
+    margin-top: 20px;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius:30px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.section-price-info a:hover {
+    background-color: #B28756;
+    color: #333;
+}
+.section-price-tab-express:hover {
+    box-shadow: 1px 1px 15px rgb(153, 153, 153);
+    background-color: #fff;
+}
 
 /*CONFIGURACAO MAPA*/
 
@@ -751,5 +769,6 @@ header {
     .logo-client-img {
         padding-left: 60px;
     }
+    
 
 }
