@@ -1,0 +1,9 @@
+function scrollTopo() {
+    window.scrollTo ({
+        top: 0,
+        behavior:'smooth'
+    });
+}
+
+
+
