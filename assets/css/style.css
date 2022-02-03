@@ -8,6 +8,21 @@
 body {
     overflow-x:hidden; /*tirar barra de rolagem horizontal*/
 }
+
+/*CONFIGURAÇAO SCROLL*/
+
+.button-scroll {
+    width: 50px;
+    height: 50px;
+    background-color: #B28756;
+    border-radius: 25px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+}
+
+
 /*configuracao do menu*/
 header {
     height: 100px;
