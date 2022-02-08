@@ -135,6 +135,12 @@ header {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
+.banner .slidearea a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+
 .banner .sliders-pointers {
     width: 100vw;
     position: absolute;
@@ -608,6 +614,124 @@ header {
     box-shadow: 1px 1px 15px rgb(153, 153, 153);
     background-color: #fff;
 }
+
+/*CONFIGURAÇÃO DO PREMIUM - CAIXA BOX*/
+
+.section-premium {
+   display: flex;
+
+}
+.section-premium-img {
+    flex: 1;
+    text-align: center;
+}
+.section-premium-info {
+    flex: 1;
+    align-items: center;
+}
+.section-premium-info-ico {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.section-premium-info-ico h2 {
+    font-family: 'montserrat', sans-serif;
+    padding-left: 27px;
+    color: #333;
+}
+.section-premium-info-desc p {
+    color: #999;
+    font-family: 'montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 60px;
+}
+.section-premium-pointers .sliders-pointers {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-premium-pointers .pointers {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #B28756;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+.section-premium-pointers .pointers.active {
+    background-color: #B28756;
+}
+hr {
+    margin: 30px 20px;
+}
+.section-premium-pointers {
+    display: flex;
+    flex-direction: column;
+}
+.section-premium-pointers a {
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'montserrat',sans-serif;
+    font-weight: 400;
+    background-color: #B28756;
+    width: 200px;
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/*CONFIGURAÇÃO SOME FACTS*/
+
+.section-some {
+    display: flex;
+}
+.section-some--design,
+.section-some--photo,
+.section-some--marketing,
+.section-some--exhibition {
+    flex: 1;
+    text-align: center; /*alinhar no centro da DIV*/
+    margin-bottom: 40px;
+}
+.section-some--design h1,
+.section-some--photo h1,
+.section-some--marketing h1,
+.section-some--exhibition h1 {
+    margin-bottom: 20px;
+    font-family: 'montserrat',sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    padding: 20px;
+    color: #B28756;
+}
+.section-some--design h3,
+.section-some--photo h3,
+.section-some--marketing h3,
+.section-some--exhibition h3 {
+    font-family: 'montserrat',sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+.section-some--design p,
+.section-some--photo p,
+.section-some--marketing p,
+.section-some--exhibition p {
+    font-family: 'montserrat',sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
 
 /*CONFIGURACAO MAPA*/
 
