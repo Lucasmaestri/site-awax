@@ -50,6 +50,7 @@ header {
 }
 .menu-mobile {
     display: none;
+    cursor: pointer;
 }
 .menu {
     flex: 1;
@@ -780,7 +781,7 @@ hr {
 
 @media (min-width:500px) and (max-width:800px) {
     nav {
-        display: flex;
+        display: none;
         position: absolute;
         z-index: 99;
         background-color: rgba(0, 0, 0, 0.8);

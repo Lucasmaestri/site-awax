@@ -13,3 +13,14 @@ function subirScroll() {
 }
 
 window.addEventListener('scroll', subirScroll);
+
+
+function navMenu() {
+    let menuMobile = document.querySelector('nav');
+
+   if(menuMobile.style.display == 'flex') {
+       menuMobile.style.display = 'none';
+   } else {
+       menuMobile.style.display = 'flex';
+   }
+}
